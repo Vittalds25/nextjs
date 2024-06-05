@@ -4,11 +4,18 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          
-           Hello 
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
       
-          <code className="font-mono font-bold">app/page.tsx</code>
+          <code className="font-mono font-bold"> 1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</code>
+        </p>
+       <code className="font-mono font-bold">Ans: 
+5 most favourite – 
+1.Respond to 25+ support requests via email every day.- I love to get to know issues and their root causes, if we have more tickets the probability of getting new issues are more and that would help me gain more knowledge and skills.
+2.Dig through logs to troubleshoot a customer's broken project. - I always prefer to fix the issue myself by going through the logs and knowing what might have caused the issue, for instance if the user has made some mistakes that led to and error we would easily get those on logs and update the user on the same.
+3.Write and maintain support articles and docs pages. - This is a very important and useful task which would reduce our burden in training the new recruits or adding this as a self assist document for the users.
+4.Analyze hundreds of support tickets to spot trends the product team can use - This is a very helpful task that would help us in reducing the tickets flow. If we are getting similar tickets that means the product is not built in a user friendly way and we would have to get this to product team and have them work on it.
+5.Work with engineering teams during incidents and provide updates to internal and external stakeholders. - This is very important task as the user will be waiting for an update, imagining myself in the place of the user I would want some solution right away and if I get to connect with the right person then I would be able to help the user ASAP.
+</code>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
